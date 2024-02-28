@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0; margin: 0; 
+    outline: 0; border: 0;
+    transition: .2s ease all;
+    font-family: "Playfair Display", serif;
+
+}
+
+body{
+    background: #f4f4f4;
+    color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.quotes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 80%;
+    width: 100%;
+}
+
+.quotes h1{
+    font-size: 10rem;
+    color: rgb(24, 139, 255);
+
+}
+.container h2{
+    position: relative;
+    padding-bottom: 5px;
+    color: #1b1b1b;
+    font-weight: 600;
+}
+
+.container h2::before{
+    content: '';
+    height: 3px;
+    border-radius: 10px;
+    width: 80px;
+    background: rgb(24, 139, 255);
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+}
+.card{
+    text-align: center;
+}
+.card-content{
+    font-size: 1.6rem;
+    color: #1b1b1b;
+    font-weight: 600;
+    margin-bottom: 35px;
+
+
+}
+
+#author{
+    color: #1b1b1b;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3rem;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background: rgb(24, 139, 255);
+    color: #f4f4f4;
+    padding: .65rem .9rem;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: .9rem;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.share{
+    border: 1px solid rgb(24, 139, 255);
+    color: rgb(24, 139, 255);
+    background: none;
+}
