@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400..900;1,400..900&display=swap'); */
 
 *{
     padding: 0; margin: 0; 
     outline: 0; border: 0;
     transition: .2s ease all;
-    font-family: "Playfair Display", serif;
+    font-family: serif;
 
 }
 
@@ -26,6 +26,7 @@ body{
     width: 450px;
     height: auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid  rgb(24, 139, 255);
     background: #f4f4f4;
     padding: 30px;
     border-radius: 20px;
